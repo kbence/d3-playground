@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+    background-color: white;
+    color: #55f;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #55f;
+    color: white;
+}
+
+div.selections svg g.node rect {
+    fill: white;
+    stroke-width: 1px;
+    stroke: black;
+}
+
+div.binding svg .enter {
+    fill: rgba(0, 192, 0, .6);
+    stroke-width: 2px;
+    stroke: #0a0;
+}
+
+div.binding svg .update {
+    fill: rgba(192, 192, 0, .6);
+    stroke-width: 2px;
+    stroke: #aa0;
+}
+
+div.binding svg .exit {
+    fill: rgba(192, 0, 0, .5);
+    stroke-width: 2px;
+    stroke: #a00;
+}
+
+div.binding svg text {
+    font-size: 90px;
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+
+div.binding svg text.enter,
+div.binding svg text.update,
+div.binding svg text.exit {
+    stroke: none;
+    font-weight: bold;
+}
+
+div.binding svg g.node rect {
+    fill: white;
+    stroke-width: 1px;
+    stroke: black;
+}
+
+div.binding svg g.node text {
+    font-size: 10pt;
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+
+div.scales svg rect.domain {
+    fill: rgba(255, 192, 0, .5);
+    stroke-width: 1px;
+    stroke: #c60;
+}
+div.scales svg rect.range {
+    fill: rgba(0, 192, 0, .5);
+    stroke-width: 1px;
+    stroke: #060;
+}
+
+div.scales svg path.funnel {
+    fill: rgba(255, 0, 0, .3);
+}
+
+div.scales svg line.transition {
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, .3);
+}
